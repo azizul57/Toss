@@ -14,7 +14,7 @@ start.addEventListener('click', function() {
 })
 var a = 1
 while (a <= 1) {
-    var rand = Math.round(Math.random() * 1)
+    var rand = Math.floor(Math.random() * 1)
     head.addEventListener('click', function() {
         this.style.background = 'green'
             // this.innerText = 'Selected'
